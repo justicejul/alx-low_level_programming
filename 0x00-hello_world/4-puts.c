@@ -1,12 +1,12 @@
-#!/bin/bash
 #include <stdio.h>
-
-int main()
+/**
+ *  main - Entry
+ *  return: Always 0
+ */
+int main(void)
 {
-  char myText[] = "Programming is like building a multilingual puzzle";
 
-  puts(myText)
- 
-  return 0;
-}	
-
+	puts("\"Programming is like building a mult
+ilingual puzzle");
+	return (0);
+}
